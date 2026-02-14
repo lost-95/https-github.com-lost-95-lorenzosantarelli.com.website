@@ -98,7 +98,7 @@ const Resume: React.FC = () => {
                   <div className="mb-3">
                     {/* NOTE: Update dates to your real 3-month period */}
                     <span className="text-xs font-black text-primary uppercase tracking-widest">
-                      (3 months)
+                      Oct 2025 – Present
                     </span>
                     <h4 className="text-xl font-bold text-gray-900">
                       Software / Systems Analyst Intern
