@@ -6,7 +6,7 @@ const Resume: React.FC = () => {
     <div className="pt-24 fade-in">
       <Section
         title="Curriculum Vitae"
-        subtitle="Data Analyst (early-career) — SQL, Python, Reporting"
+        subtitle="Junior Data Analyst — SQL, Python, Reporting"
       >
         {/* Top Header with Download Button */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-16 p-8 bg-white rounded-3xl border border-slate-100 shadow-sm">
@@ -77,8 +77,8 @@ const Resume: React.FC = () => {
               </h3>
               <p className="text-slate-600 leading-relaxed font-medium">
                 Early-career Data Analyst with a software background and hands-on
-                practice in SQL and Python (data cleaning, EDA, and basic KPI
-                reporting). I’m comfortable working with relational databases and
+                practice in SQL and Python: Data Cleaning, EDA, and reporting basics (Excel/Power BI).
+                I’m comfortable working with relational databases and
                 translating findings into clear, business-friendly summaries.
                 Currently seeking a Junior Data Analyst role to grow in analytics
                 and reporting.
@@ -98,7 +98,7 @@ const Resume: React.FC = () => {
                   <div className="mb-3">
                     {/* NOTE: Update dates to your real 3-month period */}
                     <span className="text-xs font-black text-primary uppercase tracking-widest">
-                      Oct 2025 – Present
+                      Oct 2025 – Mar 2026
                     </span>
                     <h4 className="text-xl font-bold text-gray-900">
                       Software / Systems Analyst Intern
@@ -124,45 +124,41 @@ const Resume: React.FC = () => {
                       processes (tickets, testing, documentation).
                     </li>
                     <li>
-                      Helped improve data validation checks and reduce recurring
-                      issues through clearer handoffs.
+                      Learned and followed the company’s development workflow (ticketing, testing, releases, documentation).
                     </li>
                   </ul>
                 </div>
 
                 {/* Projects */}
                 <div className="relative pl-8">
-                  <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary/50 border-4 border-white" />
+                  <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary/50 border-4 border-white"></div>
                   <div className="mb-3">
                     <span className="text-xs font-black text-primary uppercase tracking-widest">
                       Jul 2024 – Present
                     </span>
                     <h4 className="text-xl font-bold text-gray-900">
-                      Data Analytics Projects (Freelance / Personal)
+                      Data Analytics Projects (Personal / Freelance)
                     </h4>
-                    <p className="text-gray-500 font-bold">Personal portfolio</p>
+                    <p className="text-gray-500 font-bold">Personal Portfolio</p>
                   </div>
                   <ul className="list-disc list-outside ml-4 text-gray-600 space-y-2 text-sm leading-relaxed">
                     <li>
-                      Built small end-to-end analyses using SQL and Python:
-                      cleaning, EDA, and clear visuals.
+                      Built portfolio projects using SQL and Python: data cleaning, EDA, and simple reporting.
                     </li>
                     <li>
-                      Created concise takeaways (what’s happening, why it matters,
-                      next steps) for non-technical audiences.
+                      Wrote short summaries focused on KPIs, key factors, and next-step recommendations.
                     </li>
                     <li>
-                      Practiced reproducible workflows (notebooks, version control,
-                      documentation).
+                      Used reproducible workflows (Jupyter Notebooks, Git, Documentation).
                     </li>
                   </ul>
                 </div>
 
                 {/* Startup */}
                 <div className="relative pl-8">
-                  <div className="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-gray-300 border-4 border-white" />
+                  <div class="absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-primary/50 border-4 border-white"></div>
                   <div className="mb-3">
-                    <span className="text-xs font-black text-gray-400 uppercase tracking-widest">
+                    <span className="text-xs font-black text-primary uppercase tracking-widest">
                       Mar 2023 – Jul 2024
                     </span>
                     <h4 className="text-xl font-bold text-gray-900">
@@ -172,16 +168,13 @@ const Resume: React.FC = () => {
                   </div>
                   <ul className="list-disc list-outside ml-4 text-gray-600 space-y-2 text-sm leading-relaxed">
                     <li>
-                      Coordinated delivery activities and clarified requirements
-                      with stakeholders.
+                      Coordinated day-to-day delivery in a small team; translated requirements into clear tasks, priorities, and deadlines.
                     </li>
                     <li>
-                      Supported simple KPI tracking and reporting using
-                      internal/public data sources.
+                      Supported data-informed decisions with basic analysis of internal/public datasets (trends, simple KPIs, summary reporting).
                     </li>
                     <li>
-                      Improved alignment by documenting priorities, acceptance
-                      criteria, and delivery updates.
+                      Tracked tasks and blockers and shared regular progress updates with stakeholders.
                     </li>
                   </ul>
                 </div>
@@ -207,6 +200,9 @@ const Resume: React.FC = () => {
                   <li>
                     Focused on interpretability: connected model signals to churn
                     drivers, segments, and retention actions.
+                  </li>
+                  <li>
+                    Outcome: identified top churn factors and suggested retention actions for high-risk segments.
                   </li>
                 </ul>
 
@@ -261,7 +257,7 @@ const Resume: React.FC = () => {
                     Data Analysis
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {["SQL", "Python", "pandas", "NumPy"].map((s) => (
+                    {["SQL", "Python", "Pandas", "NumPy", "Data Cleaning", "EDA"].map((s) => (
                       <span
                         key={s}
                         className="bg-white/10 px-3 py-1 rounded-lg text-xs font-medium"
@@ -277,7 +273,7 @@ const Resume: React.FC = () => {
                     Visualization & Reporting
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {["Power BI", "Matplotlib", "Seaborn", "KPI Reporting"].map(
+                    {["Power BI", "Matplotlib", "Seaborn", "Excel"].map(
                       (s) => (
                         <span
                           key={s}
@@ -296,10 +292,7 @@ const Resume: React.FC = () => {
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "scikit-learn",
-                      "EDA",
-                      "Data Cleaning",
-                      "Data Quality",
+                      "Scikit-learn",
                       "Feature Engineering (basics)",
                     ].map((s) => (
                       <span
